@@ -1,0 +1,459 @@
+body{
+	 font-family: 'Roboto', sans-serif;
+	 margin: 0;
+}
+.head img{
+	width: 100%;
+}
+.slider{
+	position: relative;
+}
+.slider .btn-registro{
+	position: absolute;
+    left: 50%;
+    top:  50%;
+    color: white;
+    background: #0C6798;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 30px;
+    width: 420px;
+    height: 45px;
+    margin-left: -210px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+	text-decoration: none;
+}
+.slider .texto{
+	position: absolute;
+    left: 10%;
+    top: 70%;
+    color: white;
+    text-align: center;
+    width: 190px;
+    height: 25px;
+    font-size: 25px;
+}
+.head-phones{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	font-size: 48px;
+	color: aliceblue;
+}
+.head-menu{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.head-menu ul{
+	list-style: none;
+}
+.head-menu ul li{
+	display: inline-block;
+	margin: 5px 10px;
+	color: white;
+}
+.head-menu ul li a{
+	color: aliceblue;
+	font-weight: 900;
+	padding-left: 5px;
+	paddign-right: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+.main-menu ul li a:hover{
+	color: #8DABC2;
+	border-bottom: 2px solid #8DABC2;
+}
+.plan-title{
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #0C6798;
+}
+.Oferta .container{
+	display: flex;
+    justify-content: space-between;	
+	margin-bottom: 50px;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 80px;	
+}
+.card{
+	border: 1px solid #D6D2D2;		
+	border-radius: 5px;
+	width: 28%;
+	overflow: hidden;
+	height: 300px;
+	background-color: #0C6798;
+}
+.diagonal{	
+	background-color: white;
+	margin-top: 70px;
+    padding-bottom: 190px;
+    transform: skewY(6deg);
+}
+.card-title{
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+}
+.card-title::after{
+	content: '';
+	background-color: white;
+	height: 1px;
+	width: 15%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	display: block;
+}
+.card-list{
+	color: black;
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 40px;
+	transform: skewY(-6deg);
+	text-align: center;
+}
+.card-list li{
+	padding-bottom: 10px;
+}
+.servicios{
+	background-color: #1A82A6;
+	background-image: linear-gradient(TO TOP, #67E8CF, #19396C );
+	margin-bottom: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.divDown{
+    margin-left: -255px;
+}
+.divMovil{
+	margin-left: -215px;
+}
+.pie{
+	background-color: #0C6798;
+    color: white;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    text-align: center;	
+}
+/*___________________________________________________________________________________________________*/
+.headR{
+	background-color: #0C6798;
+	padding-top: 15px; 
+    padding-bottom: 15px;
+    text-align: center;	
+}
+.phonesR{
+	top: 30px;
+	left: 30px;
+	font-size: 48px;
+	color: aliceblue;
+}
+.refacebook{
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 10px;
+} 
+.btn-refacebook{
+	position: absolute;
+    left: 40%;
+    top: 16%;
+    color: white;
+    background: #2468B9;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 9px;
+    padding-top: 10px;
+    width: 400px;
+    height: 44px;
+    text-decoration: none;
+}
+.container-se{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.separador{
+	text-align: center;
+	display: -webkit-inline-box;
+    vertical-align: super;
+}
+.O{
+	display: inline-block;
+    line-height: 44px;
+    width: 0px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.separador1 {
+	display: -webkit-inline-box;
+	padding-left: 10px;
+    vertical-align: super;
+}
+.divRegistro{
+	text-align: center;
+}
+.divEmail{
+	padding-bottom: 20px;
+}
+.divEmail input{
+	border: 1px solid #D9D9D9;        
+    border-radius: 5px;
+    border-top: 1px solid silver;
+    font-size: 120%;
+    height: 30px;
+    color: gray;
+    width: 400px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.divUsuario{
+	padding-bottom: 20px;
+}
+.divUsuario input{
+	border: 1px solid #D9D9D9;        
+    border-radius: 5px;
+    border-top: 1px solid silver;
+    font-size: 120%;
+    height: 30px;
+    color: gray;
+    width: 400px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.divContraseña{
+	padding-bottom: 20px;
+}
+.divContraseña input{
+	border: 1px solid #D9D9D9;        
+    border-radius: 5px;
+    border-top: 1px solid silver;
+    font-size: 120%;
+    height: 30px;
+    color: gray;
+    width: 400px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.divReContraseña{
+	padding-bottom: 20px;
+}
+.divReContraseña input{
+	border: 1px solid #D9D9D9;        
+    border-radius: 5px;
+    border-top: 1px solid silver;
+    font-size: 120%;
+    height: 30px;
+    color: gray;
+    width: 400px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.divFecha{
+	display: inline-flex;
+	padding-bottom: 10px;
+}
+.divFecha select{
+	border: 1px solid #D9D9D9;
+	border-radius: 5px;
+	color: gray;
+	border-top: 1px solid silver;
+	margin: 0px 55px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.terminos{
+	padding-top: 5px;
+	margin-left: -115px;
+	color: gray;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.regis{
+	padding-top: 35px;
+	padding-bottom: 10px;
+} 
+.btn-registro{
+	position: absolute;
+    left: 40%;
+    top: 62%;
+    color: white;
+    background: #2468B9;
+    text-align: center;
+    font-size: 33px;
+    border-radius: 25px;
+    width: 400px;
+    height: 44px;
+    text-decoration: none;
+}
+.cuenta{
+    display: inline-flex;
+}
+.cuenta p{
+	color: gray;
+}
+.cuenta a{
+	text-decoration: none;
+	padding: 15px 10px;
+}
+/*______________________RESPONSIVO_____________________*/
+@media screen and (max-width: 1200px){
+
+} 
+@media screen and (max-width: 768px){	
+	.slider{
+		position: inherit;
+	}
+	.slider .btn-registro{
+		position: absolute;
+    	left: 45%;
+    	top:  50%;
+    	color: white;
+    	background: #0C6798;
+    	text-align: center;
+    	font-size: 15px;
+    	width: 186px;
+    	height: 17px;
+    	margin-left: -30px;
+    	padding-top: 10px;
+    	padding-bottom: 10px;    
+		text-decoration: none;
+	}
+	.slider .texto{
+    	position: absolute;
+    	left: 2%;
+    	top: 75%;
+    	color: white;
+    	text-align: center;
+    	width: 190px;
+    	height: 25px;
+    	font-size: 25px;
+	}
+	.plan-title{
+		font-size: 45px;
+		padding-top: 18px;
+    	padding-bottom: 5px;
+		text-align: center;
+		color: #0C6798;
+		margin: 0;
+	}
+	.Oferta .container{
+		display: block;
+    	justify-content: space-between;
+    	text-align: center;
+    	margin-left: 120px;
+    	margin-bottom: 0px;
+	}
+	.card{
+		border: 1px solid #D6D2D2;		
+		border-radius: 5px;
+		width: 78%;
+		overflow: hidden;
+		height: 300px;
+		background-color: #0C6798;
+		margin-bottom: 40px;
+	}
+	/*_________________________________________________________________________________*/
+	.btn-refacebook{
+		left: 23.5%;
+   		top: 23%;
+	}
+	.btn-registro{
+		left: 23.5%;
+    	top: 88%;
+	}
+} 
+@media screen and (max-width: 480px){
+	.slider .btn-registro{
+		position: absolute;
+    	left: 70%;
+    	top: 30%;
+    	color: white;
+    	background: #0C6798;
+    	text-align: center;
+    	font-size: 15px;
+    	width: 100px;
+    	height: 20px;
+    	margin-left: -125px;
+    	padding-top: 7px;
+    	padding-bottom: 7px;
+    	text-decoration: none;
+	}
+	.slider .texto{
+    	position: absolute;
+    	left: 2%;
+    	top: 40%;
+    	color: white;
+    	text-align: center;
+    	width: 190px;
+    	height: 25px;
+    	font-size: 20px;
+	}
+	.plan-title{
+		font-size: 25px;
+		padding-top: 18px;
+    	padding-bottom: 5px;
+		text-align: center;
+		color: #0C6798;
+		margin: 0;
+	}	
+	.Oferta .container{
+		display: block;
+    	justify-content: space-between;
+    	text-align: center;
+    	margin-left: 80px;
+    	margin-bottom: 0px;
+	}
+	.card{
+		border: 1px solid #D6D2D2;		
+		border-radius: 5px;
+		width: 78%;
+		overflow: hidden;
+		height: 300px;
+		background-color: #0C6798;
+		margin-bottom: 10px;
+
+	}
+	.servicios{
+		background-color: #1A82A6;
+		background-image: linear-gradient(TO TOP, #67E8CF, #19396C );
+		margin-bottom: 80px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+	}
+	.divDown{
+    	margin-left: -155px;
+	}
+	.divMovil{
+		margin-left: -130px;
+	}
+	/*_______________________________________________________________________________________*/
+	.btn-refacebook{
+		left: 8%;
+   		top: 30%;
+	}
+	.btn-registro{
+		left: 8%;
+    	top: 117%;
+	}
+} 
+}
